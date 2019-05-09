@@ -1,5 +1,5 @@
 {
-    "packageId": "242e76df7360fc",
+    "packageId": "5b155b2ef7cc44",
     "name": "",
     "description": "",
     "buttons": [
@@ -659,6 +659,36 @@
                     "compulsory": false,
                     "questionId": "117db54e8dfc28",
                     "number": 29
+                },
+                {
+                    "question": "a map (church drive, compulsory!)",
+                    "type": "map",
+                    "values": {
+                        "latitude": "52.931503",
+                        "longitude": "-1.127931",
+                        "latitudeDelta": 0.0922,
+                        "longitudeDelta": 0.0421,
+                        "description": "this is a map of church drive!"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "90a1ff15c2a458",
+                    "number": 30
+                },
+                {
+                    "question": "a map",
+                    "type": "map",
+                    "values": {
+                        "latitude": "52.931503",
+                        "longitude": "-1.127931",
+                        "latitudeDelta": 0.0922,
+                        "longitudeDelta": 0.0421,
+                        "description": "non compulsory"
+                    },
+                    "validators": [],
+                    "compulsory": false,
+                    "questionId": "2cc4f1bdd6882a",
+                    "number": 31
                 }
             ],
             "navigation": {
@@ -805,7 +835,21 @@
                                                                                                                                                                                                                                                 "id": "117db54e8dfc28",
                                                                                                                                                                                                                                                 "type": "node",
                                                                                                                                                                                                                                                 "parent": "e6a06d2470bac8",
-                                                                                                                                                                                                                                                "children": []
+                                                                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                        "id": "90a1ff15c2a458",
+                                                                                                                                                                                                                                                        "type": "node",
+                                                                                                                                                                                                                                                        "parent": "117db54e8dfc28",
+                                                                                                                                                                                                                                                        "children": [
+                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                "id": "2cc4f1bdd6882a",
+                                                                                                                                                                                                                                                                "type": "node",
+                                                                                                                                                                                                                                                                "parent": "90a1ff15c2a458",
+                                                                                                                                                                                                                                                                "children": []
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                ]
                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                         ]
                                                                                                                                                                                                                                     }
