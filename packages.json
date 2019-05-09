@@ -1,5 +1,5 @@
 {
-    "packageId": "2cdb9519c9260e",
+    "packageId": "1d4e41b28aa81d",
     "name": "",
     "description": "",
     "buttons": [
@@ -352,7 +352,7 @@
                     "type": "signature",
                     "values": {},
                     "validators": [],
-                    "compulsory": true,
+                    "compulsory": false,
                     "questionId": "111d3085ffe464",
                     "number": 21
                 },
