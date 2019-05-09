@@ -1,5 +1,5 @@
 {
-    "packageId": "24a26abb8cbcee",
+    "packageId": "1dd24c7f5bcfee",
     "name": "",
     "description": "",
     "buttons": [
@@ -279,6 +279,362 @@
                     "compulsory": true,
                     "questionId": "2932db7ae3bd14",
                     "number": 17
+                },
+                {
+                    "question": "constrained (DATE and TIME) question",
+                    "type": "datetime",
+                    "values": {
+                        "options": [
+                            "time",
+                            "date"
+                        ],
+                        "description": "date must be between 01 jan 2020 and 01 feb 2020 and time must be between 1PM and 2PM",
+                        "dateconstraint": {
+                            "from": {
+                                "type": "static",
+                                "value": 1577891969222
+                            },
+                            "to": {
+                                "type": "static",
+                                "value": 1580570369222
+                            }
+                        },
+                        "timeconstraint": {
+                            "from": {
+                                "type": "static",
+                                "value": 1557403200000
+                            },
+                            "to": {
+                                "type": "static",
+                                "value": 1557406800000
+                            }
+                        }
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "107fb10f06921e",
+                    "number": 18
+                },
+                {
+                    "question": "this is JUST a date question",
+                    "type": "datetime",
+                    "values": {
+                        "options": [
+                            "date"
+                        ],
+                        "description": "and it should work ok I hope",
+                        "dateconstraint": {},
+                        "timeconstraint": {}
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "22ac04246d82ba",
+                    "number": 19
+                },
+                {
+                    "question": "NON compulsory date time",
+                    "type": "datetime",
+                    "values": {
+                        "options": [
+                            "time"
+                        ],
+                        "description": "this is a non-compulsory datetime",
+                        "dateconstraint": {},
+                        "timeconstraint": {}
+                    },
+                    "validators": [],
+                    "compulsory": false,
+                    "questionId": "18ecf53fcdc897",
+                    "number": 20
+                },
+                {
+                    "question": "signature test",
+                    "type": "signature",
+                    "values": {},
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "111d3085ffe464",
+                    "number": 21
+                },
+                {
+                    "question": "non compulsory signature test",
+                    "type": "signature",
+                    "values": {},
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "2927fba8349334",
+                    "number": 22
+                },
+                {
+                    "question": "users question",
+                    "type": "users",
+                    "values": {
+                        "features": [
+                            "message",
+                            "update"
+                        ]
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "1ed772d75dbe51",
+                    "number": 23
+                },
+                {
+                    "question": "NON compulsory users",
+                    "type": "users",
+                    "values": {
+                        "features": [
+                            "message",
+                            "update"
+                        ]
+                    },
+                    "validators": [],
+                    "compulsory": false,
+                    "questionId": "1bfd7c81c68659",
+                    "number": 24
+                },
+                {
+                    "question": "an image with no desc",
+                    "type": "graphics",
+                    "values": {
+                        "templates": [
+                            {
+                                "tx": 75,
+                                "ty": 132,
+                                "template": {
+                                    "Artboard1": {
+                                        "id": "Artboard1",
+                                        "label": "rect:Artboard1",
+                                        "type": "rect",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 151.76100158691406,
+                                        "height": 150.3489990234375,
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "8febd342f89a2": {
+                                        "id": "8febd342f89a2",
+                                        "label": "circle:8febd342f89a2",
+                                        "type": "circle",
+                                        "cx": 74.25700378417969,
+                                        "cy": 74.83000183105469,
+                                        "r": 70,
+                                        "style": {
+                                            "fill": "rgb(155, 155, 155)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "b368550dcaeed8": {
+                                        "id": "b368550dcaeed8",
+                                        "label": "path:b368550dcaeed8",
+                                        "type": "path",
+                                        "d": "M 92.112,21.226 L 128.392,56.652 L 110.252,74.365 L 128.392,92.077 L 92.112,127.503 L 73.972,109.79 L 55.833,127.503 L 19.553,92.077 L 37.693,74.365 L 19.553,56.652 L 55.833,21.226 L 73.972,38.939 L 92.112,21.226 Z",
+                                        "style": {
+                                            "fill": "rgb(68, 86, 98)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "dimensions": {
+                            "minx": 74,
+                            "miny": 188,
+                            "maxx": 225.760986328125,
+                            "maxy": 338.3489990234375
+                        }
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "2315dc8d62079c",
+                    "number": 25
+                },
+                {
+                    "question": "image (graphics) with desc",
+                    "type": "graphics",
+                    "values": {
+                        "templates": [
+                            {
+                                "tx": 82,
+                                "ty": 149,
+                                "template": {
+                                    "heart": {
+                                        "id": "heart",
+                                        "label": "rect:heart",
+                                        "type": "rect",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 151.76100158691406,
+                                        "height": 150.3489990234375,
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "1f760a7d7d8316": {
+                                        "id": "1f760a7d7d8316",
+                                        "label": "circle:1f760a7d7d8316",
+                                        "type": "circle",
+                                        "cx": 74.25700378417969,
+                                        "cy": 74.83000183105469,
+                                        "r": 70,
+                                        "style": {
+                                            "fill": "rgb(155, 155, 155)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "beeb0467dc0c98": {
+                                        "id": "beeb0467dc0c98",
+                                        "label": "path:beeb0467dc0c98",
+                                        "type": "path",
+                                        "d": "M 74.61,54.679 C 83.835,37.771 102.284,37.771 111.508,46.225 C 120.733,54.679 120.733,71.587 111.508,88.495 C 105.051,101.177 88.447,113.858 74.61,122.312 C 60.773,113.858 44.169,101.177 37.712,88.495 C 28.487,71.587 28.487,54.679 37.712,46.225 C 46.937,37.771 65.386,37.771 74.61,54.679 Z",
+                                        "style": {
+                                            "fill": "rgb(27, 119, 233)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "description": "this is my description",
+                        "dimensions": {
+                            "minx": 81,
+                            "miny": 124,
+                            "maxx": 232.760986328125,
+                            "maxy": 274.3489990234375
+                        }
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "1b9068bb662fb8",
+                    "number": 26
+                },
+                {
+                    "question": "non compulsory image one",
+                    "type": "graphics",
+                    "values": {
+                        "templates": [
+                            {
+                                "tx": 106,
+                                "ty": 104,
+                                "template": {
+                                    "triangle": {
+                                        "id": "triangle",
+                                        "label": "rect:triangle",
+                                        "type": "rect",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 151.76100158691406,
+                                        "height": 150.3489990234375,
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "a84b64db36bf98": {
+                                        "id": "a84b64db36bf98",
+                                        "label": "circle:a84b64db36bf98",
+                                        "type": "circle",
+                                        "cx": 74.25700378417969,
+                                        "cy": 74.83000183105469,
+                                        "r": 70,
+                                        "style": {
+                                            "fill": "rgb(155, 155, 155)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "7d711b5e6db294": {
+                                        "id": "7d711b5e6db294",
+                                        "label": "path:7d711b5e6db294",
+                                        "type": "path",
+                                        "d": "M 75.771,24.913 L 124.344,109.757 L 27.197,109.757 L 75.771,24.913 Z",
+                                        "style": {
+                                            "fill": "rgb(233, 26, 65)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "tx": 80,
+                                "ty": 306,
+                                "template": {
+                                    "heart": {
+                                        "id": "heart",
+                                        "label": "rect:heart",
+                                        "type": "rect",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 151.76100158691406,
+                                        "height": 150.3489990234375,
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "615ae3696091ec": {
+                                        "id": "615ae3696091ec",
+                                        "label": "circle:615ae3696091ec",
+                                        "type": "circle",
+                                        "cx": 74.25700378417969,
+                                        "cy": 74.83000183105469,
+                                        "r": 70,
+                                        "style": {
+                                            "fill": "rgb(155, 155, 155)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "fd3b83c223b07": {
+                                        "id": "fd3b83c223b07",
+                                        "label": "path:fd3b83c223b07",
+                                        "type": "path",
+                                        "d": "M 74.61,54.679 C 83.835,37.771 102.284,37.771 111.508,46.225 C 120.733,54.679 120.733,71.587 111.508,88.495 C 105.051,101.177 88.447,113.858 74.61,122.312 C 60.773,113.858 44.169,101.177 37.712,88.495 C 28.487,71.587 28.487,54.679 37.712,46.225 C 46.937,37.771 65.386,37.771 74.61,54.679 Z",
+                                        "style": {
+                                            "fill": "rgb(27, 119, 233)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "dimensions": {
+                            "minx": 79,
+                            "miny": 79,
+                            "maxx": 256.760986328125,
+                            "maxy": 431.3489990234375
+                        }
+                    },
+                    "validators": [],
+                    "compulsory": false,
+                    "questionId": "175326a35a339b",
+                    "number": 27
                 }
             ],
             "navigation": {
@@ -365,7 +721,77 @@
                                                                                                                                                 "id": "2932db7ae3bd14",
                                                                                                                                                 "type": "node",
                                                                                                                                                 "parent": "15c1be1c41f222",
-                                                                                                                                                "children": []
+                                                                                                                                                "children": [
+                                                                                                                                                    {
+                                                                                                                                                        "id": "107fb10f06921e",
+                                                                                                                                                        "type": "node",
+                                                                                                                                                        "parent": "2932db7ae3bd14",
+                                                                                                                                                        "children": [
+                                                                                                                                                            {
+                                                                                                                                                                "id": "22ac04246d82ba",
+                                                                                                                                                                "type": "node",
+                                                                                                                                                                "parent": "107fb10f06921e",
+                                                                                                                                                                "children": [
+                                                                                                                                                                    {
+                                                                                                                                                                        "id": "18ecf53fcdc897",
+                                                                                                                                                                        "type": "node",
+                                                                                                                                                                        "parent": "22ac04246d82ba",
+                                                                                                                                                                        "children": [
+                                                                                                                                                                            {
+                                                                                                                                                                                "id": "111d3085ffe464",
+                                                                                                                                                                                "type": "node",
+                                                                                                                                                                                "parent": "18ecf53fcdc897",
+                                                                                                                                                                                "children": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "id": "2927fba8349334",
+                                                                                                                                                                                        "type": "node",
+                                                                                                                                                                                        "parent": "111d3085ffe464",
+                                                                                                                                                                                        "children": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                                "id": "1ed772d75dbe51",
+                                                                                                                                                                                                "type": "node",
+                                                                                                                                                                                                "parent": "2927fba8349334",
+                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                        "id": "1bfd7c81c68659",
+                                                                                                                                                                                                        "type": "node",
+                                                                                                                                                                                                        "parent": "1ed772d75dbe51",
+                                                                                                                                                                                                        "children": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "id": "2315dc8d62079c",
+                                                                                                                                                                                                                "type": "node",
+                                                                                                                                                                                                                "parent": "1bfd7c81c68659",
+                                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                        "id": "1b9068bb662fb8",
+                                                                                                                                                                                                                        "type": "node",
+                                                                                                                                                                                                                        "parent": "2315dc8d62079c",
+                                                                                                                                                                                                                        "children": [
+                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                "id": "175326a35a339b",
+                                                                                                                                                                                                                                "type": "node",
+                                                                                                                                                                                                                                "parent": "1b9068bb662fb8",
+                                                                                                                                                                                                                                "children": []
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                ]
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        ]
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                        ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                ]
+                                                                                                                                                                            }
+                                                                                                                                                                        ]
+                                                                                                                                                                    }
+                                                                                                                                                                ]
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
                                                                                                                                             }
                                                                                                                                         ]
                                                                                                                                     }
