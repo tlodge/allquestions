@@ -1,7 +1,7 @@
 {
-    "packageId": "1afec366844a91",
-    "name": "all the questions",
-    "description": "a test of all of the questions",
+    "packageId": "1dd24c7f5bcfee",
+    "name": "",
+    "description": "",
     "buttons": [
         {
             "buttonId": "a7be3a9d6b9868",
@@ -635,66 +635,6 @@
                     "compulsory": false,
                     "questionId": "175326a35a339b",
                     "number": 27
-                },
-                {
-                    "question": "take a picture test",
-                    "type": "camera",
-                    "values": {},
-                    "validators": [],
-                    "compulsory": true,
-                    "questionId": "1de278319a7b1e",
-                    "number": 28
-                },
-                {
-                    "question": "take a picture (non compulsory)",
-                    "type": "camera",
-                    "values": {},
-                    "validators": [],
-                    "compulsory": false,
-                    "questionId": "122c4e000cea0d",
-                    "number": 29
-                },
-                {
-                    "question": "a nice image",
-                    "type": "image",
-                    "values": {
-                        "description": "with an image description",
-                        "image": ""
-                    },
-                    "validators": [],
-                    "compulsory": false,
-                    "questionId": "16342130f0e55",
-                    "number": 31
-                },
-                {
-                    "question": "a map (church drive)",
-                    "type": "map",
-                    "values": {
-                        "latitude": "52.931503",
-                        "longitude": "-1.127931",
-                        "latitudeDelta": 0.0922,
-                        "longitudeDelta": 0.0421,
-                        "description": "with some descriptions!!"
-                    },
-                    "validators": [],
-                    "compulsory": true,
-                    "questionId": "22d70590ca3dc",
-                    "number": 32
-                },
-                {
-                    "question": "a map (church drive) non compulsory",
-                    "type": "map",
-                    "values": {
-                        "latitude": "52.931503",
-                        "longitude": "-1.127931",
-                        "latitudeDelta": 0.0922,
-                        "longitudeDelta": 0.0421,
-                        "description": "this is non compulsory"
-                    },
-                    "validators": [],
-                    "compulsory": false,
-                    "questionId": "5710aa78eb6c14",
-                    "number": 33
                 }
             ],
             "navigation": {
@@ -831,49 +771,7 @@
                                                                                                                                                                                                                                 "id": "175326a35a339b",
                                                                                                                                                                                                                                 "type": "node",
                                                                                                                                                                                                                                 "parent": "1b9068bb662fb8",
-                                                                                                                                                                                                                                "children": [
-                                                                                                                                                                                                                                    {
-                                                                                                                                                                                                                                        "id": "1de278319a7b1e",
-                                                                                                                                                                                                                                        "type": "node",
-                                                                                                                                                                                                                                        "parent": "175326a35a339b",
-                                                                                                                                                                                                                                        "children": [
-                                                                                                                                                                                                                                            {
-                                                                                                                                                                                                                                                "id": "122c4e000cea0d",
-                                                                                                                                                                                                                                                "type": "node",
-                                                                                                                                                                                                                                                "parent": "1de278319a7b1e",
-                                                                                                                                                                                                                                                "children": [
-                                                                                                                                                                                                                                                    {
-                                                                                                                                                                                                                                                        "id": "21877983cf5814",
-                                                                                                                                                                                                                                                        "type": "node",
-                                                                                                                                                                                                                                                        "parent": "122c4e000cea0d",
-                                                                                                                                                                                                                                                        "children": [
-                                                                                                                                                                                                                                                            {
-                                                                                                                                                                                                                                                                "id": "16342130f0e55",
-                                                                                                                                                                                                                                                                "type": "node",
-                                                                                                                                                                                                                                                                "parent": "21877983cf5814",
-                                                                                                                                                                                                                                                                "children": [
-                                                                                                                                                                                                                                                                    {
-                                                                                                                                                                                                                                                                        "id": "22d70590ca3dc",
-                                                                                                                                                                                                                                                                        "type": "node",
-                                                                                                                                                                                                                                                                        "parent": "16342130f0e55",
-                                                                                                                                                                                                                                                                        "children": [
-                                                                                                                                                                                                                                                                            {
-                                                                                                                                                                                                                                                                                "id": "5710aa78eb6c14",
-                                                                                                                                                                                                                                                                                "type": "node",
-                                                                                                                                                                                                                                                                                "parent": "22d70590ca3dc",
-                                                                                                                                                                                                                                                                                "children": []
-                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                        ]
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                ]
-                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                        ]
-                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                ]
-                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                        ]
-                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                                "children": []
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                         ]
                                                                                                                                                                                                                     }
