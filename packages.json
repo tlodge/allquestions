@@ -1,5 +1,5 @@
 {
-    "packageId": "a124ec0cbf884",
+    "packageId": "130b0a240cc698",
     "name": "",
     "description": "",
     "buttons": [
@@ -695,7 +695,6 @@
                     "type": "options",
                     "values": {
                         "options": [
-                            "this is a really really long option that will work",
                             "this",
                             "is",
                             "another",
@@ -703,7 +702,11 @@
                             "and another again",
                             "and another",
                             "and another",
-                            "again"
+                            "again",
+                            "this is a very very very very very very very very long long long long 1 2 3 selection",
+                            "and again",
+                            "and again again",
+                            "this is another one"
                         ],
                         "multiple": "single",
                         "none": false,
