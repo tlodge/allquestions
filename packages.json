@@ -1,7 +1,7 @@
 {
     "packageId": "237a25603352fa",
-    "name": "",
-    "description": "",
+    "name": "allquestions",
+    "description": "test set of questions covering all the buttonkit offers",
     "buttons": [
         {
             "buttonId": "a7be3a9d6b9868",
